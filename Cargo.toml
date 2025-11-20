@@ -48,10 +48,10 @@ features = ["alloc", "std", "docsrs"]
 all-features = true
 rustdoc-args = ["--generate-link-to-definition"]
 
-[profile.bench]
-debug = true
-lto = true
-codegen-units = 1
+# [profile.bench]
+# debug = true
+# lto = true
+# codegen-units = 1
 
 [[test]]
 name = "arithmetic"
